@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fefefe;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.nav-button {
+  display: inline-block;
+  background-color: #6c63ff;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: 10px 10px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #5548e6;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.title img {
+  height: 70px;
+  width: 70px;
+}
+
+.title h1 {
+  font-size: 2.5rem;
+  color: #6c63ff;
+}
+
+.info > div {
+  border: 3px solid #eee;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  max-width: 90%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.info h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #6c63ff;
+}
+
+table {
+  width: 95%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #6c63ff;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+tr:hover {
+  background-color: #eee;
+}
+
+.link {
+  text-align: center;
+}
+
+.link a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 15px;
+  background-color: #6c63ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.link a:hover {
+  background-color: #5548e6;
+}
+
+.video iframe {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
