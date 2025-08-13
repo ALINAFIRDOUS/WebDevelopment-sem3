@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Book Reviews</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #f9f9f9, #e3e8ee);
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      background: linear-gradient(90deg, #222, #444);
+      padding: 10px 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 15px;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #ffd166;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    h1 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #222;
+    }
+    h1 img {
+      width: 30px;
+      height: 30px;
+      border-radius: 4px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .book {
+      background: white;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    .book h2 {
+      margin-top: 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .book img {
+      width: 120px;
+      border-radius: 8px;
+      float: left;
+      margin-right: 15px;
+      object-fit: cover;
+    }
+    .book p {
+      margin: 10px 0;
+      line-height: 1.6;
+    }
+    .book ul {
+      margin: 5px 0 0 20px;
+    }
+    .buy-link {
+      display: inline-block;
+      margin-top: 10px;
+      background: #ffd166;
+      padding: 8px 12px;
+      border-radius: 6px;
+      text-decoration: none;
+      color: #222;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .buy-link:hover {
+      background: #ffb703;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: linear-gradient(90deg, #222, #444);
+      color: #fff;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="home.html">| Home |</a>
+    <a href="cats.html">| cats |</a>
+  </nav>
+
+  <div class="container">
+    <h1> My Book Reviews</h1>
+
+    <div class="book">
+      <img src="https://cdn2.penguin.com.au/covers/original/9781473565425.jpg" alt="Atomic Habits">
+      <h2>Atomic Habits – James Clear</h2>
+      <p>A practical guide to building good habits and breaking bad ones through small, consistent changes.</p>
+      <ul>
+        <li>Focuses on habit stacking and tiny habits for long term change.</li>
+        <li>Emphasizes systems over goals for sustainable results.</li>
+        <li>Offers tracking and environment design techniques.</li>
+      </ul>
+      <a class="buy-link" href="https://www.amazon.in/dp/1847941834" target="_blank">Buy on Amazon</a>
+    </div>
+
+    <div class="book">
+      <img src="https://th.bing.com/th/id/R.a7963407738dba6e70b13846272085a4?rik=lEuOXQW7jKUtYg&riu=http%3a%2f%2fheritagebooks.com.np%2fwp-content%2fuploads%2f2022%2f03%2fRich-dad-Poor-dad.jpg&ehk=W0yo9YSCRHt6KLqQkfU1cbOBeLlNlahcTxAry7gz0VY%3d&risl=&pid=ImgRaw&r=0" alt="Rich Dad Poor Dad">
+      <h2>Rich Dad Poor Dad – Robert Kiyosaki</h2>
+      <p>Explores financial education through contrasting lessons from the author’s “rich dad” and “poor dad.”</p>
+      <ul>
+        <li>Explores mindset differences about money between the wealthy and middle class.</li>
+        <li>Stresses acquiring assets, not liabilities.</li>
+        <li>Encourages entrepreneurial thinking and passive income.</li>
+      </ul>
+      <a class="buy-link" href="https://www.amazon.in/dp/1612680194" target="_blank">Buy on Amazon</a>
+    </div>
+
+    <div class="book">
+         <img src="https://dgtally.com/wp-content/uploads/2023/06/guide-to-investing-robert-kiyosaki.png" alt="A Guide to Investing">
+      <h2>A Guide to Investing – Robert Kiyosaki</h2>
+      <p>Provides strategies for building wealth and making informed investment decisions.</p>
+      <ul>
+        <li>Focuses on income-generating assets like real estate and business ownership.</li>
+        <li>Emphasizes understanding investment risk and rewards.</li>
+        <li>Teaches the mindset difference between investors and consumers.</li>
+      </ul>
+      <a class="buy-link" href="https://www.amazon.in/dp/1612680208" target="_blank">Buy on Amazon</a>
+    </div>
+
+    <div class="book"><img src="https://m.media-amazon.com/images/I/61y1U-lPl5L.jpg" alt="Mindset">
+      
+      <h2>Mindset – Carol S. Dweck</h2>
+      <p>Explores the concept of fixed vs growth mindsets and how they impact success and learning.</p>
+      <ul>
+        <li>Growth mindset motivates embracing challenges and learning.</li>
+        <li>Fixed mindset stops personal development and self-belief.</li>
+        <li>Includes strategies to develop a growth-oriented mindset.</li>
+      </ul>
+      <a class="buy-link" href="https://www.amazon.in/dp/1400062756" target="_blank">Buy on Amazon</a>
+    </div>
+
+   
+
+  </div>
+
+  <footer>
+    &copy; 2025 Alina. All Rights Reserved.
+  </footer>
+</body>
+</html>
